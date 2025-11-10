@@ -146,8 +146,8 @@ params:
     - name: EU
       description: The main servers are located here.
       closed: true
-    - name: Empty Category
-    - name: Uncategorized
+    - name: EU
+    - name: EU
       untitled: true
 
   # These are your systems. Change them to
@@ -159,19 +159,13 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
     - name: Gateway
-      category: North Coast
+      category: EU
     - name: Backup Gateway
       category: North Coast
     - name: Website
       description: The web frontend for the application.
       category: Uncategorized
-      link: https://example.com/
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-      category: Uncategorized
+      link: https://sygma.co.uk
 
   # What date format to use?
   #
